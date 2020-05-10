@@ -1,4 +1,5 @@
 package com.iiitb.spe.calc;
+
 import java.util.*;
 
 public class Calculator {
@@ -31,6 +32,16 @@ public class Calculator {
 					number2 = sc.nextDouble();
 					System.out.println(number1 + number2);
 					System.out.println("");
+					break;
+
+				case 2:
+					System.out.println("Subtraction");
+					System.out.println("Enter two numbers");
+					System.out.print("Enter number 1: ");
+					number1 = sc.nextDouble();
+					System.out.print("Enter number 2: ");
+					number2 = sc.nextDouble();
+					System.out.println(number1 - number2);
 					break;
 				default:
 					System.out.println("Exiting program due to invalid input");
